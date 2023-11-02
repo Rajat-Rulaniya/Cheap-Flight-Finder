@@ -76,10 +76,10 @@ class FlightSearch:
         try:
             data = response.json()['data'][0]
         except IndexError:
-            stop_overs = 2
-            api_search_parameters["max_stopovers"] = stop_overs
+            temp_stop_overs = 2
+            api_search_parameters["max_stopovers"] = temp_stop_overs
             response = requests.get(url=api_search_endpoint, headers=api_header, params=api_search_parameters)
             data = response.json()['data'][0]
-            return self.flight_data_pass(data, stop_overs, from_city_code, to_city_code)
+            return self.flight_data_pass(data, temp_stop_overs, from_city_code, to_city_code)
         else:
             return self.flight_data_pass(data, stop_overs, from_city_code, to_city_code)
