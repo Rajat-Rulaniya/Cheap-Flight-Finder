@@ -9,15 +9,15 @@ It sends you details via email you entered.
 ![Screenshot 2023-11-02 054502](https://github.com/Rajat-Rulaniya/Cheap-Flight-Finder/assets/135516007/b28fae31-1208-4745-909b-8a0121657f95)
 ![Screenshot 2023-11-02 054548](https://github.com/Rajat-Rulaniya/Cheap-Flight-Finder/assets/135516007/87fb9f32-41ad-47e0-aa12-101f16756627)
 
-3. Create account on Sheety (will be used to access google sheets)
+2. Create account on Sheety (will be used to access google sheets)
 
-4. Connect Sheety with google sheets by creating new project & get your endpoints.
+3. Connect Sheety with google sheets by creating new project & get your endpoints.
 
-5. Create account on Tequila(kiwi) & get api key.
+4. Create account on Tequila(kiwi) & get api key.
 
-6. Paste all those details accordingly where I have used os.environ
+5. Paste all those details accordingly where I have used os.environ
 
-7. That's It!
+6. That's It!
 
 # Cool Features
 1. It saves user data in a google sheet.
